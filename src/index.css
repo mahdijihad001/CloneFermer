@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headerTitleBg{
+    opacity: 1;
+    transform: perspective(1200px) translateX(0px) translateY(0px) scale(1) rotate(0deg) rotateX(0deg) rotateY(0deg) skewX(0deg) skewY(0deg) translateZ(0px);
+    background-color: rgb(26, 94, 255);
+}
+.headerTitleBg:hover{
+    background-color: black;
+}
+
+*{
+    font-family: "Cabinet Grotesk", "Cabinet Grotesk Placeholder";
+}
